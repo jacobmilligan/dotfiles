@@ -1,0 +1,19 @@
+" Colors
+colorscheme apprentice
+
+" Plugins
+" """"""""""""""""""""""""
+" Filetype and syntax highlighting support
+filetype plugin indent on
+syntax on
+
+" Enable matchit.vim
+runtime macros/matchit.vim
+
+" Other settings
+set autoindent
+set backspace=indent,eol,start
+set hidden
+set incsearch
+set ruler
+set wildmenu
